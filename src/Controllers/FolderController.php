@@ -1,9 +1,9 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager\Controllers;
+namespace AmidEsfahani\LaravelFilemanager\Controllers;
 
-use UniSharp\LaravelFilemanager\Events\FolderIsCreating;
-use UniSharp\LaravelFilemanager\Events\FolderWasCreated;
+use AmidEsfahani\LaravelFilemanager\Events\FolderIsCreating;
+use AmidEsfahani\LaravelFilemanager\Events\FolderWasCreated;
 
 class FolderController extends LfmController
 {

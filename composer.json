@@ -1,5 +1,5 @@
 {
-  "name": "unisharp/laravel-filemanager",
+  "name": "amidesfahani/laravel-filemanager",
   "description": "A file upload/editor intended for use with Laravel 5 to 10 and CKEditor / TinyMCE",
   "license": "MIT",
   "keywords": [
@@ -45,7 +45,7 @@
   },
   "autoload": {
     "psr-4": {
-      "UniSharp\\LaravelFilemanager\\": "src/"
+      "AmidEsfahani\\LaravelFilemanager\\": "src/"
     }
   },
   "autoload-dev": {
@@ -56,7 +56,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "UniSharp\\LaravelFilemanager\\LaravelFilemanagerServiceProvider"
+        "AmidEsfahani\\LaravelFilemanager\\LaravelFilemanagerServiceProvider"
       ],
       "aliases": {
       }
