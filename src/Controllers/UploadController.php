@@ -1,10 +1,10 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager\Controllers;
+namespace AmidEsfahani\LaravelFilemanager\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Log;
-use UniSharp\LaravelFilemanager\Lfm;
+use AmidEsfahani\LaravelFilemanager\Lfm;
 
 class UploadController extends LfmController
 {
