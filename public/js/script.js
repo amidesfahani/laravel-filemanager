@@ -87,6 +87,11 @@ $(document).ready(function () {
     $('#uploadModal').modal('show');
   });
 
+  $('#uploadModal').on('show.bs.modal', function() {
+    $('#uploadModal .dropzone .dz-preview.dz-success.dz-complete').remove();
+    $('#uploadModal .dropzone').removeClass('dz-started');
+  });
+
   if (usingWysiwygEditor()) {
     $('#multi_selection_toggle').hide();
   }
